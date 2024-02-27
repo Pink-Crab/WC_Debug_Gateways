@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "pinkcrabdebug-gateways/always-reject",
+  "version": "0.1.0",
+  "title": "Always Reject Gateway Block",
+  "category": "widgets",
+  "icon": "money",
+  "description": "WC Gateway that always rejects the order.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "pinkcrab-debug-gateways",
+  "editorScript": "file:./index.js"
+}

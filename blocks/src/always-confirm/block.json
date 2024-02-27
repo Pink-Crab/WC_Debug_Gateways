@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "pinkcrabdebug-gateways/always-confirm",
+    "version": "0.1.0",
+    "title": "Always Confirm Gateway Block",
+    "category": "widgets",
+    "icon": "money",
+    "description": "WC Gateway that always confirms the order.",
+    "supports": {
+        "html": false
+    },
+    "textdomain": "pinkcrab-debug-gateways",
+    "editorScript": "file:./index.js"
+}
